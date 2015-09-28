@@ -1,5 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 
-{ shot=~/screenshots/$(date +%F-%T).png; maim -s "$shot";
-imgurbash.sh "$shot"; }
+shot="$HOME/screenshots/$(date +%F-%T).png"
+maim -s "$shot"
+imgurbash.sh "$shot"
+
+
+ 
